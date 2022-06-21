@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <h2 align="center">Job Details: </h2>
+    <table align="center" border="1%">
+      <thead>
+
+      </thead>
+      <tbody>
+      <tr>
+        <td>Job Title:</td>
+        <td><input type="text" name="Jtitle" required/></td>
+      </tr>
+      <tr>
+        <td>Description:</td>
+        <td>
+          <textarea name="Description" rows="5" cols="20" required/></textarea>
+          <br/>
+          <span>Brief description should have atmost 500 characters</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Company Name:</td>
+        <td><input type="text" name="Cname" required/></td>
+      </tr>
+      <tr>
+        <td>Contact Number:</td>
+        <td><input type="number" name="Cnumber" required/></td>
+      </tr>
+      <tr>
+        <td>Contact Person:</td>
+        <td><input type="text" name="cname" required/></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" required/></td>
+      </tr>
+      <tr>
+        <td>Work Status:</td>
+        <td>
+          <input type="checkbox" name="Workstatus" value="Full Time" required/> Full Time
+          <input type="checkbox" name="Workstatus" value="Part Time" required/> Part Time 
+          <input type="checkbox" name="Workstatus" value="Per Dim" required/> Per Dim 
+          <input type="checkbox" name="Workstatus" value="Others" required/> Others 
+      </tr>
+      <tr>
+        <td> Salary:</td>
+        <td>
+          <input type="number" name="Salary" required/>
+          <select>
+            <option>US Dollar</option>
+            <option>Indian Rupees</option>
+            <option>Egypt Pound</option>
+            <option>Belgium Euro</option>
+            <option>Mexico Peso</option>
+          </select>
+          <select>
+            <option>Yearly</option>
+            <option>Monthly</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Experience(Years):</td>
+        <td><input type="text" name="Eyears"></td>
+      </tr>
+      <tr>
+        <td>Locations:</td>
+        <td><input type="text" name="Lname"></td>
+      </tr>
+      <tr>
+        <td>Qualifications:</td>
+        <td>
+          <textarea name="Qualification" rows="4" cols="15" placeholder="Any High School Associate      Pre Bachelors   Graduation  Degree"></textarea>
+          <input type="button" value="ADD>>">
+          <input type="button" value="<<REMOVE">
+          <textarea name="TQualification" rows="4" cols="5" placeholder="Any"></textarea>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td><input type="submit" value="Submit"></td>
+        <td><input type="Reset" value="Reset"></td>
+      </tr>
+    </tfoot>
+    </table>
+  </body>
+</html>
